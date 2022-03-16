@@ -1,0 +1,20 @@
+{
+	"name": "Naboard-Music-Ctalogue",
+	"title": "Nagboard Music Catalogue",
+	"description": "Sharing data across the world!",
+	"author": "Nagboard",
+	"version": "1.0.0",
+	"minimumCoreVersion": "0.5.0",
+	"compatibleCoreVersion": "9",
+        "packs": [
+	    {
+	      "name": "playlists",
+	      "label": "Music Nagboard",
+	      "path": "/packs/playlists.db",
+	      "entity": "Playlist",
+	      "type": "Playlist",
+	      "private": false
+	    }
+	  ]
+
+}
